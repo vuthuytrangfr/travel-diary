@@ -45,5 +45,6 @@ group :development do
   gem 'spring'
   gem 'sqlite3'
   gem 'carrierwave'
+  gem 'mini_magick', '3.8.0'
 end
 
