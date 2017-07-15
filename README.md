@@ -15,7 +15,7 @@ To get started, just do the following:
 2. Preview your new app by clicking on the URL that appears in the Run panel below (https://travel-diary-vuthuytrangfr.c9users.io/).
 
 Happy coding!
-kami is editting
+kami is editting on new branch
 The Cloud9 IDE team
 
 
