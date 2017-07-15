@@ -11,7 +11,7 @@ class IdeasController < ApplicationController
   # GET /ideas/1.json
   def show
       @comments = @idea.comments.all
-      @comment = @idea.comments.build
+   @comment = @idea.comments.build
   end
 
   # GET /ideas/new
@@ -27,7 +27,6 @@ class IdeasController < ApplicationController
   # POST /ideas.json
   def create
     @idea = Idea.new(idea_params)
-    
     respond_to do |format|
       if @idea.save
         format.html { redirect_to @idea, notice: 'Idea was successfully created.' }
